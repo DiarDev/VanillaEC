@@ -44,7 +44,6 @@ class Main extends PluginBase implements Listener
     {
         $this->saveDefaultConfig();
         $enchants = [
-            new FortuneEnchantment(),
             new LootingEnchantment(),
             new SmiteEnchantment(),
             new BaneOfArthropodsEnchantment()
